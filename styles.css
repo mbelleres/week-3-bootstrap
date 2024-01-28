@@ -1,0 +1,97 @@
+/* ↓ THE FOLLOWING CSS CODE ARE THE EXTERNAL CSS CODE  ↓  */
+
+/* ---ELEMENT SELECTORS--- */
+
+body {
+    background-color: rgb(38, 113, 235);
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.div-border {
+    background-color: cornflowerblue; 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 5px;
+}
+
+.img-right {
+    float: right;
+}
+
+.shadow-text {
+    text-shadow: gray 1px 1px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 185, 185);
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+/* ---CUSTOM CLASS NAME SELECTORS--- */
+
+.hov {
+    height: 20px;
+    width: 200px;
+    background-color: blue;
+}
+
+.hov:hover {
+    background-color: red;
+}
+
+.every-even li:nth-child(even) {
+    background-color: red;
+}
+
+.every-third li:nth-child(3n) {
+    background-color: red;
+}
+
+.image-center {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+}
+
+.image-div {
+    background-color: rgb(6, 0, 3);
+}
+
+#large-paragraph {
+    font-size: 30px;
+    color: gray;
+    background-color: blue;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 5px;
+    height: 200px;
+    text-align: left;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: blue;
+
+}

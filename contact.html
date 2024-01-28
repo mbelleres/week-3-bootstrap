@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--This the header for Home Page.-->
+    <h1>Contact</h1>
+
+    <!--This are some links to navigate to (Home/About/Contact) Page using Div to organize them. All the address are going to be relative going to the same directory-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Guitar Lesson</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Main Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+    </nav>
+
+    <!--Creating a table links to our social media pages using table rows; table header for Site, Link; table data .-->
+    <table>
+        <tr>
+            <th>Site</th>
+            <th>Link</th>
+        </tr>
+            <td>Facebook</td>
+            <!--Using anchor to link to our social media. Using # because we don't actuall have a guitar business.-->
+            <td><a href="#">Visit our Facebook</a></td>
+        <tr>
+            <td>Instagram</td>
+            <!--Using anchor to link to our social media. Using # because we don't actuall have a guitar business.-->
+            <td><a href="#">Visit our Instagram</a></td>
+        </tr>
+        <tr>
+            <td>LinkedIn</td>
+            <!--Using anchor to link to our social media. Using # because we don't actuall have a guitar business.-->
+            <td><a href="#">Visit our LinkedIn</a></td>
+        </tr>
+        <tr>
+            <td>YouTube</td>
+            <!--Using anchor to link to our social media. Using # because we don't actuall have a guitar business.-->
+            <td><a href="#">Visit our YouTube</a></td>
+        </tr>
+    </table>
+
+    <!--Creating a Contact Us form with input type text and placeholder for first, last name, phone number, and the submit input to contact us.-->
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="text" name="phone" placeholder="Phone Number">
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+
+    <h3>Invite Friends By Contacting Us Above <span class="badge badge-primary">NEW</span></h3>
+
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sam</td>
+            <td>sam@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tom</td>
+            <td>tom@gmail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sally</td>
+            <td>sally@gmail.com</td>
+        </tr>
+    </table>
+
+    <scrip src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html
